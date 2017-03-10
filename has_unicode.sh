@@ -26,6 +26,7 @@ has_unicode() {
 		export UNICODE_AVAILABLE=1
 		return 0
 	else
+		export UNICODE_AVAILABLE=0
 		return 1
 	fi
 }
